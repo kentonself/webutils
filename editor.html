@@ -1,31 +1,31 @@
 <!-- A simple html text editor. NOTE that this does not save text. Once you exit the page, the text is lost. -->
 
 <!DOCTYPE html>
-<head>
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-</head>
 <html lang="en">
-<style>
-    div[contenteditable] {
-            outline: none;
-            border: none;
-            min-height: 100vh;
-        }
-    body {
-	    background: black;
-	    color: white;
-	    font-family: monospace;
-	    font-size: 24px;
-    }
-    body::spelling-error {
-            text-decoration: underline wavy #ff4a4a !important;
-        }
-</style>
-<body>
-    <div contenteditable="true" spellcheck="true" autofocus></div>
-</body>
+	<head>
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<style>
+                        div[contenteditable] {
+	                        outline: none;
+	                        border: none;
+	                        min-height: 100vh;
+                        }
+                        body {
+	                        background: black;
+	                        color: white;
+	                        font-family: monospace;
+	                        font-size: 24px;
+                        }
+                        body::spelling-error {
+	                        text-decoration: underline wavy #ff4a4a !important;
+                       }
+		</style>
+	</head>
+	<body>
+		<div contenteditable="true" spellcheck="true" autofocus></div>
+	</body>
 </html>
 
