@@ -1,0 +1,20 @@
+<!-- A simple html text editor. NOTE that this does not save text. Once you exit the page, the text is lost. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+	    background: black;
+	    color: white;
+	    font-family: monospace;
+	    font-size: 24px;
+    }
+    body::spelling-error {
+            text-decoration: underline wavy #ff4a4a !important;
+        }
+</style>
+<body>
+    <div contenteditable="true" spellcheck="true" autofocus></div>
+</body>
+</html>
+
